@@ -1,0 +1,99 @@
+
+body{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.caja{
+background-image: url("imagenes/fondo1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+color: white;
+text-align: center;
+color: white;
+box-shadow: #d3d3d3 5px 5px 10px 10px;
+height: 40%;
+width: 70%;
+margin-left: -3%;
+border-top: solid black;
+border-bottom:solid black;
+border-radius: 50px;
+border-top: 3px solid red;
+border-bottom: 3px solid pink;
+box-shadow: 3px 2px 4px blue;
+margin-top: 5%;
+position: absolute;
+border: 5px solid pink;
+
+}
+
+
+.caja > ul {
+  margin-left: 30%;
+  margin-right: 60%;
+  margin-top: -2%;
+}
+
+.caja > ul > li {
+  display: inline-block;
+  border: 1.5px solid black;
+  background-color: #6d9eb4;
+  padding: 5px;
+  margin: 0px;
+  margin-top: 20%;
+  min-width: 30vh;
+  text-align: center;
+}
+
+.caja > ul > li:hover {
+
+  border: 3px solid coral;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#boton{
+  position: relative;
+  overflow: hidden;
+  transition: .5s ease all;
+}
+
+#boton a{
+  position: relative;
+  z-index: 2;
+  transition: .5s ease all;
+}
+
+a{
+  color: white;
+}
+
+#boton::after {
+  content: "";
+  width: 200%;
+  height: 105%;
+  background: pink;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -6px;
+  z-index: 1;
+  transition: .3s ease-in-out all;
+}
+
+#boton:hover::after{
+  margin-left: -90%;
+  transition: 0.9s ease all;
+}
+
+h1{
+  text-align: center;
+  margin-right: 15%;
+  color: orange;
+  background-color: purple;
+  margin-left: 12%;
+  border-radius: 30px;
+}

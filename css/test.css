@@ -1,0 +1,111 @@
+.caja{
+position: absolute;
+background-image: url("imagenes/fondo1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+color: white;
+text-align: justify;
+text-color: white;
+box-shadow: #d3d3d3 20px 5px 10px 10px;
+width: 90%;
+padding: 10px;
+margin-left: 2%;
+margin-top: 10%;
+border-top: solid black;
+border-bottom:solid black;
+border-radius: 50px;
+border-left-color: red;
+
+display: inline-flex;
+}
+
+.boton{
+    background-color: purple;
+    border: 2px solid black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 0%;
+
+}
+
+.boton span {
+  position: relative;
+  z-index: 2;
+  transition: .3s ease all;
+}
+
+.boton::after {
+  content: "";
+  width: 110%;
+  height: 120%;
+  background: pink;
+  position: absolute;
+  margin-left: -100%;
+  margin-top: -95px;
+  z-index: 1;
+  transition: .3s ease-in-out all;
+}
+
+.boton:hover::after{
+  margin-top: -11px;
+}
+
+.color{
+  border-radius: 5px;
+}
+
+.ConBTN2{
+  width: 350px;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 0.8%;
+  padding-bottom: 0.1%;
+  padding-left: 0%;
+  padding-right: -100px;
+}
+
+a, .aa{
+  margin: 0px;
+  position: absolute;
+}
+
+h1,h5{
+  text-align: center;
+}
+
+form{
+  margin-left: 5%;
+  width: 100%;
+}
+
+#color9{
+  margin-right: 33%;
+}
+
+section{
+  margin-right: 20px;
+  margin-left: 8%;
+  width: 50%;
+}
+
+img{
+  position: relative;
+  width: 30%;
+  border-radius: 30%;
+  margin-left: 90px;
+}
+
+meter{
+
+  width: 100%;
+}

@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.caja{
+background-image: url("imagenes/fondo1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+color: white;
+text-align: center;
+text-color: white;
+box-shadow: #d3d3d3 5px 5px 10px 10px;
+width: 90%;
+padding: 10px;
+margin-left: -3%;
+border-top: solid black;
+border-bottom:solid black;
+border-radius: 50px;
+border-top: 3px solid red;
+border-bottom: 3px solid pink;
+box-shadow: 3px 2px 4px blue;
+margin-top: 5%;
+}
+
+.boton{
+    background-color: purple;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 2%;
+    z-index: 10;
+
+}
+
+.boton span {
+  position: relative;
+  z-index: 2;
+  transition: .3s ease all;
+}
+
+.boton::after {
+  content: "";
+  width: 180%;
+  height: 100%;
+  background: pink;
+  position: absolute;
+  margin-left: -90%;
+  margin-top: -65.80px;
+  z-index: 1;
+  transition: .3s ease-in-out all;
+}
+
+.boton:hover::after{
+  margin-top: -10px;
+}
+
+.ventana{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0;
+  background-color: lightgray;
+  pointer-events: none;
+  z-index: 12;
+}
+
+.caja1{
+  margin-top: 0%;
+  transition: .6s ease all;
+}
+
+.caja2{
+  margin: 0%;
+  transition: .6s ease all;
+}
+
+#emergente{
+  box-shadow: 0 20px 20px pink;
+  text-align: center;
+  z-index: 20;
+}
+
+.contenedor-lista{
+  overflow: hidden;
+  width: 700px;
+  height: 200px;
+}
+
+
+.contenedor{
+  font-size: 30px;
+  background-color: lightgray;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 3px 2px 4px blue;
+}

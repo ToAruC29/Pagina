@@ -1,0 +1,58 @@
+.caja{
+background-image: url("imagenes/fondo1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+color: white;
+text-align: center;
+text-decoration-color: white;
+box-shadow: #d3d3d3 5px 5px 10px 20px;
+width: 80%;
+padding: 10px;
+margin-left: 7%;
+margin-bottom: 5%;  
+border-top: 4px solid blue;
+border-bottom: 4px solid yellow;
+border-radius: 50px;
+border-left-color: red;
+}
+
+#hora{
+    font-size:70px;
+    color:white;
+}
+
+#hora span{
+    color:white;
+    font-size:20px;
+    position:relative;
+    top: -30px;
+    left:-10px;
+}
+
+#fecha{
+    letter-spacing:8px;
+    font-size:20px;
+    color:white;
+}
+
+#hora, #fecha{
+  border: 2px solid coral;
+  border-radius: 30%;
+  width: 90%;
+  margin-left: 4.7%;
+
+}
+
+a, .boton{
+ background-color: lightblue;
+ border-radius: 30%;
+ border: 2px solid blue;
+}
+
+a,.boton:hover{
+  color: white;
+  background-color: purple;
+  padding: 1px;
+
+}

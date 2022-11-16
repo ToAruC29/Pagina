@@ -1,0 +1,83 @@
+.caja{
+position: absolute;
+background-image: url("imagenes/fondo1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+color: white;
+text-align: center;
+text-color: white;
+box-shadow: #d3d3d3 20px 5px 10px 10px;
+width: 90%;
+padding: 10px;
+margin-left: 2%;
+border-top: solid black;
+border-bottom:solid black;
+border-radius: 50px;
+border-left-color: red;
+
+z-index: 56;
+}
+
+h1{
+  color: coral;
+}
+
+.seccion{
+  padding: 30px;
+  border: solid yellow;
+  border-radius: 40px;
+}
+
+img{
+  border-radius: 20px;
+  border: solid yellow;
+}
+
+.Aviso{
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 18%;
+  background-color: white;
+  opacity: 85%;
+  border: 5px solid red;
+  border-right: 55px solid red;
+  border-left: 55px solid red;
+  color: red;
+  font-size: 100%;
+  padding: 30px;
+  border-radius: 40px;
+
+  z-index: 54;
+}
+
+.opacidad{
+
+  background-color: black;
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  z-index: 54;
+  opacity: 80%;
+}
+
+body{
+  background-color: black;
+  opacity: 90%;
+}
+
+a, .boton{
+ background-color: lightblue;
+ border-radius: 30%;
+ border: 2px solid blue;
+ z-index: 100;
+}
+
+a,.boton:hover{
+  color: white;
+  background-color: purple;
+  padding: 1px;
+
+}

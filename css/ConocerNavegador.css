@@ -1,0 +1,73 @@
+.caja{
+background-image: url("imagenes/fondo1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+color: white;
+text-align: center;
+text-color: white;
+box-shadow: #d3d3d3 5px 5px 10px 10px;
+width: 90%;
+padding: 10px;
+margin-left: 2%;
+border-top: solid black;
+border-bottom:solid black;
+border-radius: 50px;
+border-left-color: red;
+margin-bottom: 5%;
+position: relative;
+}
+
+.titulo{
+  color: lightblue;
+  box-shadow:0px 5px;
+}
+
+
+
+.boton{
+    background-color: purple;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    width: 150px;
+    height: 30px;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 39%;
+    z-index: 10;
+
+}
+
+.boton span{
+  position: absolute;
+  margin-right: 0%;
+  z-index: 8;
+  transition: .3s ease all;
+}
+
+a{
+  margin-right: 0%;
+}
+
+.boton::after {
+  content: "";
+  width: 150%;
+  height: 150%;
+  background: pink;
+  position: absolute;
+  margin-left: -50%;
+  margin-top: -90px;
+  z-index: 1;
+  transition: .3s ease-in-out all;
+}
+
+.boton:hover::after{
+  margin-top: -20px;
+}

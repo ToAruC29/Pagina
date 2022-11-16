@@ -1,0 +1,31 @@
+
+#img{
+  position: absolute;
+  height: 200px;
+}
+
+.contenedor{
+  background-image: url("imagenes/Fondo2.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  overflow: hidden;
+  width: 99%;
+  height: 99%;
+  opacity: 80%;
+  margin-top: 2%;
+
+}
+
+a, span{
+ background-color: lightblue;
+ border-radius: 30%;
+ border: 2px solid blue;
+}
+
+a,span:hover{
+  color: white;
+  background-color: purple;
+  padding: 1px;
+}
